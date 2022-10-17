@@ -28,11 +28,11 @@ cdf=scaler.fit_transform(cdf)
 
 model = load_model('my_model.h5')
 
-
+API_KEY=YOUR API KEY
 websocket.enableTrace(True)
 ws = websocket.WebSocket()
                             
-ws.connect("wss://ws.finnhub.io?token=cd2tepaad3ias3n82lq0cd2tepaad3ias3n82lqg")
+ws.connect("wss://ws.finnhub.io?token=API_KEY")
 
 root=Tk()
 root.geometry('520x750')
